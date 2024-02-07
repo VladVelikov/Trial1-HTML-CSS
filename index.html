@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masonry</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font: 12px /1.2 'Times New Roman', Times, serif;
+        }
+        body{
+            padding:2em;
+            background-color: rgb(236, 236, 236);
+            
+        }
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .site{
+            width: 65vw;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+           
+        }
+        .card{
+            width: 20vw;
+            border: 1px solid grey;
+            border-radius: 0.5em;
+            overflow: hidden;
+            
+        }
+        .center{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+
+        .right{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        p{
+            margin: 1em;
+        }
+        .card-footer{
+            padding-top: 0.2em;
+            border-top: 1px solid grey;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <div class="site">    
+        <div class="left">
+            <div class="card">
+                <img src="images/Image1.jpg" alt="">
+                <div class="card-main">
+                    <p class="card-title">Card Title</p>
+                    <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus pariatur sit cum rem obcaecati! 
+                        Provident molestias, consequatur eaque, qui incidunt ducimus, 
+                        omnis aliquam maxime eum porro vitae unde blanditiis ipsum?</p>
+                    </div>
+                    <div class="card-footer">
+                        <p>More incoming things about the thing.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Image4.jpg" alt="">
+                    <div class="card-main">
+                        <p class="card-title">Card Title</p>
+                        <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Temporibus pariatur sit cum rem obcaecati! 
+                            Provident molestias, consequatur eaque, qui incidunt ducimus, 
+                            omnis aliquam maxime eum porro vitae unde blanditiis ipsum?</p>
+                        </div>
+                        <div class="card-footer">
+                            <p>More incoming things about the thing.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="images/Image3.jpg" alt="">
+                        <div class="card-main">
+                            <p class="card-title">Card Title</p>
+                            <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Temporibus pariatur sit cum rem obcaecati! 
+                                Provident molestias, consequatur eaque, qui incidunt ducimus, 
+                                omnis aliquam maxime eum porro vitae unde blanditiis ipsum?</p>
+                            </div>
+                            <div class="card-footer">
+                                <p>More incoming things about the thing.</p>
+                            </div>
+                        </div>
+                        
+        </div>
+
+        <div class="center">
+            <div class="card">
+                <img src="images/Image4.jpg" alt="">
+                <div class="card-main">
+                    <p class="card-title">Card Title</p>
+                    <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus pariatur sit cum rem obcaecati! 
+                        Provident molestias, consequatur eaque, qui incidunt ducimus, 
+                        omnis aliquam maxime eum porro vitae unde blanditiis ipsum?</p>
+                    </div>
+                    <div class="card-footer">
+                        <p>More incoming things about the thing.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Image1.jpg" alt="">
+                    <div class="card-main">
+                        <p class="card-title">Card Title</p>
+                        <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Temporibus pariatur sit cum rem obcaecati! 
+                            Provident molestias, consequatur eaque, qui incidunt ducimus, 
+                            omnis aliquam maxime eum porro vitae unde blanditiis ipsum?</p>
+                        </div>
+                        <div class="card-footer">
+                            <p>More incoming things about the thing.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="images/Image2.jpg" alt="">
+                        <div class="card-main">
+                            <p class="card-title">Card Title</p>
+                            <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Temporibus pariatur sit cum rem obcaecati! 
+                                Provident molestias, consequatur eaque, qui incidunt ducimus, 
+                                omnis aliquam maxime eum porro vitae unde blanditiis ipsum?</p>
+                            </div>
+                            <div class="card-footer">
+                                <p>More incoming things about the thing.</p>
+                            </div>
+                        </div>
+
+
+                        
+
+
+        </div>
+
+
+        <div class="right">
+            <div class="card">
+                <img src="images/Image3.jpg" alt="">
+                <div class="card-main">
+                    <p class="card-title">Card Title</p>
+                    <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus pariatur sit cum rem obcaecati! 
+                        Provident molestias, consequatur eaque, qui incidunt ducimus, 
+                        omnis aliquam maxime eum porro vitae unde blanditiis ipsum?</p>
+                    </div>
+                    <div class="card-footer">
+                        <p>More incoming things about the thing.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Image4.jpg" alt="">
+                    <div class="card-main">
+                        <p class="card-title">Card Title</p>
+                        <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Temporibus pariatur sit cum rem obcaecati! 
+                            Provident molestias, consequatur eaque, qui incidunt ducimus, 
+                            omnis aliquam maxime eum porro vitae unde blanditiis ipsum?</p>
+                        </div>
+                        <div class="card-footer">
+                            <p>More incoming things about the thing.</p>
+                        </div>
+                    </div>
+                    
+                   
+                        
+                        
+                        
+    </div>
+                    
+</body>
+</html>
+                
+                
